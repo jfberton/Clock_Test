@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_alarmas" targetNamespace="http://tempuri.org/ds_alarmas.xsd" xmlns:mstns="http://tempuri.org/ds_alarmas.xsd" xmlns="http://tempuri.org/ds_alarmas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_alarmas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="ds_alarmas" msprop:Generator_DataSetName="ds_alarmas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Alarmas" msprop:Generator_RowEvHandlerName="AlarmasRowChangeEventHandler" msprop:Generator_RowDeletedName="AlarmasRowDeleted" msprop:Generator_RowDeletingName="AlarmasRowDeleting" msprop:Generator_RowEvArgName="AlarmasRowChangeEvent" msprop:Generator_TablePropName="Alarmas" msprop:Generator_RowChangedName="AlarmasRowChanged" msprop:Generator_RowChangingName="AlarmasRowChanging" msprop:Generator_TableClassName="AlarmasDataTable" msprop:Generator_RowClassName="AlarmasRow" msprop:Generator_TableVarName="tableAlarmas" msprop:Generator_UserTableName="Alarmas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_UserColumnName="Id" type="xs:string" minOccurs="0" />
+              <xs:element name="Hora" msprop:Generator_ColumnPropNameInRow="Hora" msprop:Generator_ColumnPropNameInTable="HoraColumn" msprop:Generator_ColumnVarNameInTable="columnHora" msprop:Generator_UserColumnName="Hora" type="xs:string" minOccurs="0" />
+              <xs:element name="AM_PM" msprop:Generator_ColumnPropNameInRow="AM_PM" msprop:Generator_ColumnPropNameInTable="AM_PMColumn" msprop:Generator_ColumnVarNameInTable="columnAM_PM" msprop:Generator_UserColumnName="AM_PM" type="xs:string" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_UserColumnName="Descripcion" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
